@@ -153,4 +153,4 @@ async def upcycling_photo_endpoint(data: PhotoModel):
 # To run the FastAPI server
 if __name__ == '__main__':
     import uvicorn
-    uvicorn.run(app, host='0.0.0.0', port=2024)
+    uvicorn.run(app, host='0.0.0.0', port=8000)
