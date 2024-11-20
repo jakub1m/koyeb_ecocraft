@@ -6,7 +6,7 @@ class UpcyclingIdeas(BasePrompt):
 
 Dla każdego projektu:
 1. **Krótki opis projektu upcyklingowego** – opisz, jak połączyć podane przedmioty w konkretny projekt.
-2. **Dodatkowe elementy** – jeśli konieczne będzie dokupienie dodatkowych materiałów (np. deska, farby, śruby), wspomnij o tym i podkreśl, jak wpłynie to na końcowy efekt.
+2. **Dodatkowe elementy** – jeśli konieczne będzie dokupienie dodatkowych materiałów (np. deska, farby, śruby), wspomnij o tym i podkreśl, jak wpłynie to na końcowy efekt. Napisz o tym w sekcji "description".
 
 Format odpowiedzi:
 [    {        "project": "Stół z palet i szyby",         "description": "Wykorzystaj drewniane palety jako bazę stołu i dokup szybę, by stworzyć elegancki i funkcjonalny mebel. Palety można oszlifować i pomalować, by nadać im bardziej nowoczesny lub rustykalny charakter. Szyba pełni funkcję blatu, co sprawia, że całość jest trwała i łatwa w utrzymaniu czystości. To idealne rozwiązanie dla jadalni lub przestrzeni ogrodowej."    },    {        "project": "Fotel z opon i pianki tapicerskiej",         "description": "Przekształć starą oponę w wygodny fotel, dokładając okrągłą deskę na spód (stabilizacja) oraz warstwę pianki tapicerskiej i materiału obiciowego na górę. Do opony można dokupić nóżki meblowe lub zamontować je na ramie drewnianej. Tak stworzony mebel łączy trwałość opony z nowoczesnym designem, idealnym do wnętrz lub na taras."    }]
