@@ -7,7 +7,7 @@ from typing import Optional, Union
 class RecyclingGuide2(BasePrompt):
     PROMPT = """Przeanalizuj dostarczony obraz i zidentyfikuj każde wyraźnie widoczne przedmioty. Jeśli można określić materiał lub przeznaczenie przedmiotu (np. 'plastikowa butelka na wodę', 'kartonowe opakowanie na jedzenie'), podaj tę informację. Jeśli tylko ogólny typ przedmiotu jest widoczny, ale nie można określić materiału ani konkretnego zastosowania, użyj ogólnej nazwy (np. 'butelka', 'pudełko'). Pomijaj elementy tła, które nie mają związku z analizą. Jeśli przedmiot jest nieczytelny lub niejasny, oznacz go jako 'Niezidentyfikowany'. Dla każdego z podanych przedmiotów wskaż odpowiedni pojemnik na odpady lub sposób utylizacji:
 
-        Plastik i metal (np. butelki plastikowe, pojemniki, puszki, folia aluminiowa)
+        Plastik i metal (np. butelki plastikowe, pojemniki, puszki, folia aluminiowa, kartony po mleku)
         Papier (np. gazety, karton)
         Szkło (np. butelki szklane, słoiki)
         Odpady organiczne (np. resztki jedzenia, przedmioty kompostowalne)
